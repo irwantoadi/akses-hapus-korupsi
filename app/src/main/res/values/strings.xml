@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Akses Hapus Korupsi</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="no_hp">No. HP</string>
+    <string name="umur">Umur</string>
+    <string name="pencarian">Pencarian</string>
+    <string name="keterangan_agenda">Keterangan Agenda</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_kosong"
+    android:gravity="center"
+    tools:context=".AgendaActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/header_agenda"
+            android:adjustViewBounds="true"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/pencarian"
+            android:paddingLeft="70dp"
+            android:inputType="text"
+            android:background="@drawable/monitoring_search"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kalender"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/keterangan_agenda"
+            android:paddingLeft="50dp"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:paddingTop="30dp"
+            android:background="@drawable/bg_keterangan"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
